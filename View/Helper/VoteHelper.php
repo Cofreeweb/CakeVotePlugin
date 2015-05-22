@@ -9,7 +9,7 @@ class VoteHelper extends AppHelper
   
   
   
-  public function beforeRender() 
+  public function beforeRender( $viewFile) 
   {
     if( !$this->request->is( 'ajax'))
     {
